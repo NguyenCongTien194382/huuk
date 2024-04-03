@@ -1,8 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 
-import QrCode from '@/assets/images/qrcode.png'
-
 const FooterDownload = () => {
     return (
         <div>
@@ -11,7 +9,7 @@ const FooterDownload = () => {
                     Get Huuk App now - Scan QR to Download
                 </div>
                 <Image
-                    src={QrCode}
+                    src='/assets/images/qrcode.png'
                     width={148}
                     height={148}
                     alt="logo"
@@ -20,7 +18,7 @@ const FooterDownload = () => {
             </div>
             <div className='md:hidden'>
                 <div className='text-[#fffffff2] text-base font-semibold mb-4 text-center'>Get Huuk App now </div>
-                <div className='flex items-center justify-center gap-4'>
+                <div className='flex items-center justify-center gap-1'>
                     <Image
                         src="/assets/images/mobile-app-store.png"
                         width={500}

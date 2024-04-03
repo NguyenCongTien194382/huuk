@@ -33,8 +33,14 @@ const Pagination: React.FC<Props> = ({ total }) => {
                 </div>
             )
         }
-        return originalElement;
-    };
+        if (type === 'jump-prev' || type === 'jump-next') {
+            return (
+                <div>...</div>
+            )
+        }
+
+        return originalElement
+    }
 
     return (
         <div className='text-center'>
@@ -45,7 +51,7 @@ const Pagination: React.FC<Props> = ({ total }) => {
                 showSizeChanger={false}
                 itemRender={itemRender}
                 showLessItems={true}
-            />;
+            />
         </div>
     )
 }

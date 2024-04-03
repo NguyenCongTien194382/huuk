@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/layouts/Header/Header";
 import Footer from "@/layouts/Footer/Footer";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,12 +17,22 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="en">
       <body className={inter.className}>
         <Header />
         {children}
         <Footer />
+
+        {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-VEFJPQZGPC"></script>
+        <script>
+          {`window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-VEFJPQZGPC');`}
+        </script> */}
       </body>
     </html>
   );

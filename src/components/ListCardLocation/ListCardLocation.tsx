@@ -1,13 +1,13 @@
 import React from 'react'
 import Container from '@/layouts/Container/Container';
-import Card from '../Card/Card';
+import Card from './Card';
 
 interface Props {
     title: string;
     subTitle: string;
 }
 
-const ListCard: React.FC<Props> = ({ title, subTitle }) => {
+const ListCardLocation: React.FC<Props> = ({ title, subTitle }) => {
     return (
         <div>
             <Container className='md:px-20'>
@@ -32,4 +32,4 @@ const ListCard: React.FC<Props> = ({ title, subTitle }) => {
     )
 }
 
-export default ListCard
+export default ListCardLocation

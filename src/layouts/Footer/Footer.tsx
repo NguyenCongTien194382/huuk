@@ -1,6 +1,6 @@
 import React from 'react'
 import Container from '../Container/Container'
-import Logo from '@/components/Logo/Logo'
+import Logo from '@/components/ui/Logo/Logo'
 import FooterDownload from './FooterDownload'
 
 const Footer = () => {
