@@ -1,7 +1,6 @@
 import React from 'react'
-import Image from 'next/image'
-import Container from '@/layouts/Container/Container'
-import SearchLocation from '@/components/SearchLocation/SearchLocation'
+import Container from "@/components/layouts/Container";
+import SearchLocation from "@/components/SearchLocation";
 
 const Banner = () => {
     return (

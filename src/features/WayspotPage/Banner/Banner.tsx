@@ -1,10 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
-import Section from '@/layouts/Section/Section'
+import Index from '@/components/layouts/Section'
 
 const Banner = () => {
     return (
-        <Section className='mb-[80px]'>
+        <Index className='mb-[80px]'>
             <div className='bg-[#19052F] rounded-3xl flex p-5 lg:px-20 lg:py-12 gap-3 flex-col lg:flex-row'>
                 <div className=''>
                     <div>
@@ -62,7 +62,7 @@ const Banner = () => {
                 // className='block object-cover w-full h-full'
                 />
             </div>
-        </Section>
+        </Index>
     )
 }
 

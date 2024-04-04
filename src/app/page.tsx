@@ -1,6 +1,4 @@
-import React from 'react'
-import HomePage from '@/features/HomePage/HomePage'
-import Script from 'next/script'
+import HomePage from "@/features/HomePage";
 
 const Home = () => {
   return (

@@ -1,12 +1,12 @@
 import React from 'react'
 import Icon from '@/assets/icons/Icon'
 
-interface Props {
+interface CardLocationProps {
     urlImage: string;
     name: string;
 }
 
-const Card = () => {
+const CardLocation = () => {
     return (
         <div className='p-4 rounded-3xl shadow hover:shadow-xl transition w-full cursor-pointer'>
             <div className='rounded-xl overflow-hidden'>
@@ -44,4 +44,4 @@ const Card = () => {
     )
 }
 
-export default Card
+export default CardLocation

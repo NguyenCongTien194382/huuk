@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react'
 import InputSelect from '../ui/InputSelect/InputSelect'
 import IconFile from '../ui/IconFile/IconFile'

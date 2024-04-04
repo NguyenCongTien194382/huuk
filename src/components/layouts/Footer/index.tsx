@@ -1,7 +1,7 @@
 import React from 'react'
-import Container from '../Container/Container'
 import Logo from '@/components/ui/Logo/Logo'
-import FooterDownload from './FooterDownload'
+import Container from "@/components/layouts/Container";
+import FooterAppDownload from "@/components/layouts/Footer/FooterAppDownload";
 
 const Footer = () => {
     return (
@@ -14,7 +14,7 @@ const Footer = () => {
                         </div>
                         <div className='text-[#ffffffb3] text-base font-normal'>Huuk - Your Journey is in Your Hands</div>
                     </div>
-                    <FooterDownload />
+                    <FooterAppDownload />
                 </div>
             </Container>
         </div>

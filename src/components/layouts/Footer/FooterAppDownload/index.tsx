@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-const FooterDownload = () => {
+const FooterAppDownload = () => {
     return (
         <div>
             <div className='hidden md:flex items-center gap-6'>
@@ -39,4 +39,4 @@ const FooterDownload = () => {
     )
 }
 
-export default FooterDownload
+export default FooterAppDownload

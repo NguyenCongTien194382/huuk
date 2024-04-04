@@ -1,9 +1,9 @@
 import React from 'react'
-import City from '@/features/City/City'
+import WayspotPage from "@/features/WayspotPage";
 
 const page = () => {
     return (
-        <City />
+        <WayspotPage />
     )
 }
 

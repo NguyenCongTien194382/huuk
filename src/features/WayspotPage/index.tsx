@@ -1,22 +1,22 @@
 import React from 'react'
-import Container from '@/layouts/Container/Container'
+import Index from '@/components/layouts/Container'
 import DetailInfo from './DetailInfo/DetailInfo'
 import Banner from './Banner/Banner'
-import ListCardLocation from '@/components/ListCardLocation/ListCardLocation'
+import Index from '@/components/ListCardLocation'
 
-const City = () => {
+const WayspotPage = () => {
     return (
         <div>
             <DetailInfo />
             <Banner />
-            <Container className='pb-20'>
-                <ListCardLocation
+            <Index className='pb-20'>
+                <Index
                     title='EXPLORE MORE'
                     subTitle='Discover Inspiring Roadtrip Ideas '
                 />
-            </Container>
+            </Index>
         </div>
     )
 }
 
-export default City
+export default WayspotPage
